@@ -1,8 +1,10 @@
 ## Async Handler in Express.js
 
 **Summary**:
-Express does not catch rejected promises automatically. Therefore, each uncatched error
+Express 4.x does not catch rejected promises automatically. Therefore, each uncatched error
 inside the app will cause the program to crash, or requests to hang.
+
+Express 5 finally fixes this.
 
 **Solutions**:
 
